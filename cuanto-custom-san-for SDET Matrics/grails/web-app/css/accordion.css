@@ -1,0 +1,66 @@
+.accordionMenu {
+	float: left;
+	margin-left: 10px;
+	height: 450px;
+	overflow: auto;
+}
+
+.accordion {
+	padding-left: 10px;
+	float: left;
+}
+
+.accordion table {
+	width: 400px;
+}
+
+.accordion table {
+	border-spacing: 0;
+}
+
+.accordion td {
+	padding: 0;
+}
+
+.accordion .projRow:hover {
+	background-color: mintcream;
+}
+
+.accordion .tdTitle {
+	font-style: italic;
+}
+
+.activeToggler {
+	background-color: #dff7eb;
+	padding: 3px 7px;
+}
+
+.inactiveToggler {
+	padding: 3px 7px;
+}
+
+.round1 {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.round2 {
+	-moz-border-radius: 6px 0 0 6px;
+	-webkit-border-radius: 6px 0 0 6px;
+}
+
+#rightColProjects {
+	background-color:  #dff7eb;
+	float: left;
+	width: 500px;
+	height: 450px;
+	padding: 3px;
+}
+
+#projColInner {
+	background-color: white;
+	padding: 15px;
+	margin: 15px auto;
+	vertical-align:middle;
+	overflow: auto;
+}

@@ -1,0 +1,205 @@
+.anHead {
+	font-size: 11px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#anPanel .bd {
+	background-color: white;
+	overflow:auto;
+	padding: 10px;
+}
+
+#anPanel .ft {
+    height:15px;
+    padding:0;
+}
+
+#outPanel .bd {
+	background-color: white;
+	overflow:auto;
+	padding: 10px;
+}
+
+#outPanel .ft {
+    height:15px;
+    padding:0; 
+}
+
+.inTable {
+	font-size: 11px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#outputParentDiv {
+	font-size: 11px;
+}
+
+.testOutput {
+	font-size: 11px;
+	font-family: monospace;
+	margin-top: 12px;
+}
+
+.outputLink {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.selectCmd {
+	font-size: 11px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	margin-right: 8px;
+}
+
+.hidden {
+	display: none;
+}
+
+.fieldSelect {
+	width: 25px;
+	text-align: center;
+}
+
+.fieldName {
+	width: 65px;
+}
+
+#fieldHdr {
+	text-align:left;
+}
+
+#editNoteField {
+	background-color:lightgoldenrodyellow;
+	margin-left: 5px;
+}
+
+
+#anTable {
+	/*width:50%;*/
+}
+
+
+#tableDiv {
+	display:block;
+	float:left;
+	margin-left: 10px;
+	margin-right: 40px;
+	width: 40%;
+}
+
+.nofloat {
+	clear:both;
+}
+
+.colHdr {
+	font-weight:bold;
+}
+
+.anlzElem {
+	/*margin-left: 10px;*/
+	/*margin-right: 20px;*/
+}
+
+#prevAnlz {
+	margin-left: 30px;
+}
+
+#note {
+	width:250px;
+}
+
+/* Container workarounds for Mac Gecko scrollbar issues */
+.yui-panel-container.hide-scrollbars #dt-dlg .bd {
+/* Hide scrollbars by default for Gecko on OS X */
+	overflow: hidden;
+}
+
+.yui-panel-container.show-scrollbars #dt-dlg .bd {
+/* Show scrollbars for Gecko on OS X when the Panel is visible  */
+	overflow: auto;
+}
+
+.yui-dt-liner {
+	white-space: nowrap;
+}
+
+.dialogHeading {
+	font-weight:bold;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+.deleteLink {
+	margin-left: 10px;
+}
+
+
+#trLinks {
+	margin-top: 5px;
+}
+
+#tagDiv {
+	vertical-align:middle;
+}
+
+#tagLabel {
+	vertical-align:middle;
+}
+
+#tagButtons {
+	vertical-align:middle;
+}
+
+.borderedTable {
+	border: 1px solid lightgray;
+}
+
+.borderedTable th {
+	padding:5px;
+}
+.borderedTable thead {
+	background-color:lightgray;
+}
+
+.borderedTable td {
+	border-bottom: 1px solid lightgray;
+	padding: 5px;
+}
+
+.brd {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.inlineb {
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+
+#resultsTabContents {
+    width: 100%;
+    overflow: auto;
+}
+
+.yui-skin-sam tr.yui-dt-selected td a {
+	color: white;
+}
+
+.acnt {
+	display: inline;
+	position: relative;
+	left: -23px;
+	top: -5px;
+}
+
+.mag {
+	position: relative;
+	top: 10px;
+}
+
+.maglink {
+	text-decoration: none;
+}
